@@ -65,7 +65,7 @@ if (isset($_POST["cari"])) {
                     <a href="hapus.php?id=<?= $sws["id"]?>"
                     onclick="return confirm('yakin mau dihapus?');" class="btn btn-danger">hapus</a>
                 </td>
-                <td><img src="img/<?= $sws["gamabar"]?>" alt="" width="100"></td>
+                <td><img src="img/<?= $sws["gambar"]?>" alt="" width="100"></td>
                 <td><?= $sws["nim"]?></td>
                 <td><?= $sws["nama"]?></td>
                 <td><?= $sws["email"]?></td>
